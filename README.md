@@ -64,8 +64,8 @@ The application will be accessible at `http://127.0.0.1:5000/`.
 
 ### Request Example
 
-GET /api/reviews?page=https://example.com/product-reviews
-text
+GET /api/reviews?page=[https://example.com/product-reviews
+text](https://www.amazon.in/Samsung-Galaxy-Ultra-Green-Storage/dp/B0BT9CXXXX)
 
 ### Sample Response
 
