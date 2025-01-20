@@ -1,0 +1,16 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-498-278
+INFO:werkzeug: * Detected change in '/Users/sumukha/Work/Internship/app.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-498-278
+INFO:werkzeug: * Detected change in '/Users/sumukha/Work/Internship/app.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-498-278
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 11:30:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 11:30:47] "GET /script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 11:30:47] "GET /style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 11:30:47] "[36mGET / HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 11:30:47] "[36mGET /style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 11:30:47] "[36mGET /script.js HTTP/1.1[0m" 304 -
+ERROR:app:Error fetching reviews: Error code: 404 - {'error': {'message': 'The model `gpt-4o` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 11:31:11] "[35m[1mGET /api/reviews?page=https://2717recovery.com/products/recovery-cream HTTP/1.1[0m" 500 -
